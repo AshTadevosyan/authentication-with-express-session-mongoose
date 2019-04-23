@@ -1,0 +1,17 @@
+body {
+    background: #D0A171;
+}
+section {
+    width: 50%;
+    margin-left: 25%;
+    background: #CB9662;
+    height: 500px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+input{
+    margin-left:44%;
+}

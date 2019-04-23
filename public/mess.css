@@ -1,0 +1,72 @@
+* {
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+img{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+}
+.landing {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background: #2D7686;
+    top: 0px;
+    z-index: 1;
+}
+
+.overlay:before {
+    width: 400px;
+    height: 550px;
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.2);
+    filter: blur(6px);
+    z-index: 6;
+}
+
+.overlay {
+    width: 330px;
+    height: 390px;
+    background: inherit;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    margin-left: -178px;
+    margin-top: -210px;
+    border-radius: 5px;
+}
+
+.form {
+    font-size: small;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: 100;
+}
+
+.profile{
+    height: 100%;
+    width: 90%;
+    z-index: 9999;
+}
+
+.div-username{
+    font-size: large;
+    margin-top:20px;
+    text-align: center;}
